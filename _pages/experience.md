@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "Experience"
+permalink: /experience/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
 QUANTUM & AI RESEARCH INTERN
 IBM
 Working with the IBM Quantum Research Team on Error Mitigation techniques with Machine Learning that can be integrated into the Qiskit Transpiler. Also exploring variations of QVE and QAOA.

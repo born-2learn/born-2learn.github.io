@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "Conferences"
+permalink: /conferences/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
 2020 IEEE INTERNATIONAL CONFERENCE ON QUANTUM COMPUTING & ENGINEERING
 Received 100% fellowship to attend the tutorials, workshops, paper presentations and networking sessions.
 

@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "Awards"
+permalink: /awards/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
 Certificate of Proficiency - Qiskit India Challenge - IBM
 Intern of the Month - CITRIOT
 1 st Place - Nokia - White Paper Contest
