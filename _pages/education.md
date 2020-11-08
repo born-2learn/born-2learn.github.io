@@ -1,3 +1,12 @@
+---
+layout: archive
+title: "Education"
+permalink: /education/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
 RV COLLEGE OF ENGINEERING, BANGALORE, INDIA
 BACHELOR OF ENGINEERING, ELECTRONICS & COMMUNICATIONS ENGINEERING
 Relevant coursework: Engineering Mathematics: Linear Algebra, Statistics & Probability Theory; Engineering Physics: Quantum Systems; Engineering Materials; Analog IC Design; Advanced Digital System Design and VLSI; DSP and Machine Learning; Communication Systems
