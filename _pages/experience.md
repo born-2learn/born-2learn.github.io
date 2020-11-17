@@ -7,28 +7,370 @@ redirect_from:
   - /resume
 ---
 
-QUANTUM & AI RESEARCH INTERN
-IBM
-Working with the IBM Quantum Research Team on Error Mitigation techniques with Machine Learning that can be integrated into the Qiskit Transpiler. Also exploring variations of QVE and QAOA.
+<!-- Research>
+            <section class="resume-section" id="research">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Research
+                        
+                    </h1>
+                    
+                    <p class="lead mb-5">I am working as a Quantum Machine Learning Research Intern at IBM India, 
+                        which includes research on error mitigation techniques using machine learning that can be incorporated with the Qiskit transpiler. I am also an Undergraduate in Electronics & Communications Engineering at RVCE, Bangalore and an MITx MicroMasters student in Data Science & Statistics.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/syedfarhanahmad/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/born-2learn"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://twitter.com/syedfarhanrvce"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="https://scholar.google.com/citations?user=vt42UYoAAAAJ&hl=en"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" /-->
 
-October 2020 - December 2020
-QISKIT DOCS TRANSLATOR
-IBM INDIA
-Official Translator of the IBM Qiskit Docs for the Hindi Language(National Language of India).
 
-August 2020 - Present
-JUNIOR RESEARCHER
-CIRQUIT QUANTUM RESEARCH
-Worked on Quantum Machine Learning Research Projects that include QSVMs and Hessian based Loss Landscape analysis to avoid Barren Plateaus.
 
-August 2020 - September 2020
-FOUNDER & COMMUNITY MANAGER
-QPOWER QUANTUM COMMUNITY
-QPower is a community of like minded Quantum enthusiasts that was formed under the Microsoft Student Partner program to promote open source culture and research among students. As a Community Manager, I am responsible for organizing and managing QPower's various open source programs and events. I am also responsible for planning and implementing strategies for new projects and collaborations.
 
-November 2019 - Present
-SDE INTERN
-CITRIOT
-Improved model accuracy of Face Recognition Project's model by 63% by customizing the TensorFlow API. Designed Backend software using Python-Flask and deployed it on an embedded Linux-based device.
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">RV College of Engineering, Bangalore, India</h3>
+                            <div class="subheading mb-3">Bachelor of Engineering, Electronics & Communications Engineering</div>
+                            <div><b>Relevant coursework:</b> Engineering Mathematics: Linear Algebra, Statistics &
+                                Probability Theory; Engineering Physics: Quantum Systems; Engineering
+                                Materials; Analog IC Design; Advanced Digital System Design and VLSI;
+                                DSP and Machine Learning; Communication Systems</div>
+                            <p><b>Activities and Societies:</b> Wipro-IISc Autonomous Vehicle Research Group, Junior Researcher at CIRQuIT Quantum Research, Astra Robotics, Entrepreneurship Cell, Frequency Club
+                                </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2018 - May 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Massachusetts Institute of Technology</h3>
+                            <div class="subheading mb-3">MicroMasters in Data Science and Statistics</div>
+                            <!--p>GPA: 3.56</p-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - May 2021</span></div>
+                    </div>
 
-May 2020 -
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">TU Delft</h3>
+                            <div class="subheading mb-3">Professional Certificate, Quantum Computing & Quantum Internet</div>
+                            <!--p>GPA: 3.56</p-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - December 2020</span></div>
+                    </div>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience & Research</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Quantum & AI Research Intern</h3>
+                            <div class="subheading mb-3">IBM</div>
+                            <p>Working with the IBM Quantum Research Team on Error Mitigation techniques with Machine Learning that can be integrated into the Qiskit Transpiler. 
+                                Also exploring variations of QVE and QAOA.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2020 - December 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Qiskit Docs Translator</h3>
+                            <div class="subheading mb-3">IBM India</div>
+                            <p>Official Translator of the IBM Qiskit Docs for the Hindi Language(National Language of India).</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Junior Researcher</h3>
+                            <div class="subheading mb-3">CIRQuIT Quantum Research</div>
+                            <p>Worked on Quantum Machine Learning Research Projects that include
+                                QSVMs and Hessian based Loss Landscape analysis to avoid Barren
+                                Plateaus.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - September 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Founder & Community Manager</h3>
+                            <div class="subheading mb-3">QPower Quantum Community</div>
+                            <p>QPower is a community of like minded Quantum enthusiasts that was formed under the Microsoft Student Partner program to promote open source culture and research among students.
+
+                                As a Community Manager, I am responsible for organizing and managing QPower's various open source programs and events. I am also responsible for planning and implementing strategies for new projects and collaborations.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2019 - Present</span></div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">SDE Intern</h3>
+                            <div class="subheading mb-3">CITRIOT</div>
+                            <p>Improved model accuracy of Face Recognition Project's model
+                                by 63% by customizing the TensorFlow API. Designed Backend software
+                                using Python-Flask and deployed it on an embedded Linux-based device.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2020 - August 2020</span></div>
+                    </div>
+
+
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+            <!-- Invited Talks-->
+            <section class="resume-section" id="invited-talks">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Invited Talks</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <!--h3 class="mb-0">Quantum & AI Research Intern</h3-->
+                            <div class="subheading mb-3">AI Dev Day - KonfHub</div>
+                            <p>Quantum Machine Learning with Microsoft Q# ( Talk info and recordings - <a href = "https://aidevday.konfhub.com/">https://aidevday.konfhub.com/)</a></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">26 September, 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            
+                            <div class="subheading mb-3">Google Developer Student Club - Florida Atlantic University, USA</div>
+                            <p>Introduction to Quantum Computing with Google Cirq</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            
+                            <div class="subheading mb-3">IEEE - Mehran University of Engineering & Technology</div>
+                            <p>Introduction to Quantum Computing with IBM Quantum</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2020</span></div>
+                    </div>
+                    
+
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Quantum Computing</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Qiskit
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            QSharp
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            QIS, Quantum Machine Learning
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cirq
+                        </li>
+                    </ul>
+
+                    <div class="subheading mb-3">Machine Learning</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Keras & Tensorflow
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            PyTorch
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Scikit-Learn
+                        </li>
+                       
+                    </ul>
+
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+            <!-- Papers & Proceedings-->
+            <section class="resume-section" id="papers-and-proceedings">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Papers & Proceedings</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <!--h3 class="mb-0">Quantum & AI Research Intern</h3-->
+                            <div class="subheading mb-3">A Machine Learning Approach to Water Leak Localization</div>
+                            <p>Presented paper at 2019 4th International Conference on Computational Systems and Information Technology for Sustainable Solution (CSITSS)</p>
+                            <p><u><b>Syed Farhan Ahmad</b></u>, Deeksha Shravani, YR Prajwal, SB Prapulla, NS Girish Rao Salanke and G Shobha, IEEEXplore, 12 March 2020(Published. Available <a href="https://ieeexplore.ieee.org/abstract/document/9031010" target="_blank">here</a>.)</a></p>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            
+                            <div class="subheading mb-3">Low Latency & High Throughput Wireless-NoC Architecture for Manycore Processors</div>
+                            <p>Presented at International Conference on Networking, Embedded and Wireless Systems (ICNEWS)</p>
+                            <p><u><b>Syed Farhan Ahmad</b></u>, Shiva Sagar Shetty, Minal Moharir and K Sunil, IEEEXplore, 21 November 2019(Published. Available <a href="https://ieeexplore.ieee.org/abstract/document/8903985" target="_blank">here</a>.)</p>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            
+                            <div class="subheading mb-3">A comparative study of Quantum Kernel Function in QSVMs</div>
+                            <p><u><b>Syed Farhan Ahmad</b></u> and Raghav Rawat(To be submitted to Nature)</p>
+                        </div>
+                        
+                    </div>
+                    
+
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Major Conferences-->
+            <section class="resume-section" id="major-conferences">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Major Conferences</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <!--h3 class="mb-0">Quantum & AI Research Intern</h3-->
+                            <div class="subheading mb-3">2020 IEEE International Conference on Quantum Computing & Engineering</div>
+                            <p>Received 100% fellowship to attend the tutorials, workshops, paper presentations and networking sessions.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            
+                            <div class="subheading mb-3">2020 33rd International Conference on VLSI Design and 2020 19th International Conference on Embedded Systems </div>
+                            <p>Received 100% Fellowship to attend the proceedings of both the conferences in Bangalore, India.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            
+                            <div class="subheading mb-3">2019 4th International Conference on Computational Systems and Information Technology for Sustainable Solution (CSITSS)</div>
+                            <p>Presented my paper titled "A Machine Learning Approach to Water Leak Localization", which has now been published in IEEEXplore.(Paper can be found <a href="https://ieeexplore.ieee.org/abstract/document/9031010" target="_blank">here</a>.)</a> </p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            
+                            <div class="subheading mb-3">2018 International Conference on Networking, Embedded and Wireless Systems (ICNEWS)</div>
+                            <p>Presented my paper titled "Low Latency & High Throughput Wireless-NoC Architecture for Manycore Processors", which has now been published in IEEEXplore.(Paper can be found <a href="https://ieeexplore.ieee.org/abstract/document/8903985" target="_blank">here</a>.)</a> </p>
+                        </div>
+                        
+                    </div>
+                    
+
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>My hobbies include cycling, cooking and watching F.R.I.E.N.D.S, and you might sometimes find me tinkering with microcontroller boards. </p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the machine learning world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Certificate of Proficiency - Qiskit India Challenge - IBM
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Intern of the Month - CITRIOT
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - Nokia - White Paper Contest
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - JP Morgan & Chase - Code for Good Hackathon
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - Rotary Youth Leadership Awards - Fastest 4x4 Rubik's Cube(Master Cube) Solver
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Indian Institute of Science(IISc) - KVPY Fellowship
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            19
+                            <sup>th</sup>
+                            International Rank - International Computing Olympiad(iCO)
+                        </li>
+                    </ul>
+                </div>
+            </section>
