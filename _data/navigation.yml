@@ -1,0 +1,27 @@
+# main links links
+main:
+
+  - title: "Education"
+    url: /education#Education/
+
+  - title: "Experience/Research"
+    url: /education#Experience/
+
+  - title: "Publications" #ready
+    url: /publications/
+
+  - title: "Talks"  #ready
+    url: /talks/      
+
+  - title: "Blog Posts" #ready
+    url: /year-archive/
+
+  - title: "Skills"
+    url: /education#Awards/
+
+  - title: "Conferences"
+    url: /conferences/
+    
+  - title: "Awards"
+    url: /education#Awards/
+
