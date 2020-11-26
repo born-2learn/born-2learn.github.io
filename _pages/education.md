@@ -7,13 +7,13 @@ redirect_from:
   - /resume
 ---
 
-# Education #
-  
+Education
+=======  
 
-### RV College of Engineering, Bangalore, India                         *August 2018 - May 2022*
-#### Bachelor of Engineering, Electronics & Communications Engineering
-- **Relevant coursework:** Engineering Mathematics: Linear Algebra, Statistics & Probability Theory; Engineering Physics: Quantum Systems; Engineering Materials; Analog IC Design; Advanced Digital System Design and VLSI; DSP and Machine Learning; Communication Systems
-- **Activities and Societies:** Wipro-IISc Autonomous Vehicle Research Group, Junior Researcher at CIRQuIT Quantum Research, Astra Robotics, Entrepreneurship Cell, Frequency Club
+- ## RV College of Engineering, Bangalore, India                         *August 2018 - May 2022*
+### Bachelor of Engineering, Electronics & Communications Engineering
+  - **Relevant coursework:** Engineering Mathematics: Linear Algebra, Statistics & Probability Theory; Engineering Physics: Quantum Systems; Engineering Materials; Analog IC Design; Advanced Digital System Design and VLSI; DSP and Machine Learning; Communication Systems
+  - **Activities and Societies:** Wipro-IISc Autonomous Vehicle Research Group, Junior Researcher at CIRQuIT Quantum Research, Astra Robotics, Entrepreneurship Cell, Frequency Club
 
 
 ### Massachusetts Institute of Technology                               *September 2020 - May 2021*
@@ -23,7 +23,8 @@ redirect_from:
 #### Professional Certificate, Quantum Computing & Quantum Internet
   
 
-# Experience #
+Experience
+========
 
 ### Quantum & AI Research Intern                                        *October 2020 - December 2020*
 #### IBM
