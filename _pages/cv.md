@@ -9,20 +9,32 @@ redirect_from:
 
 {% include base_path %}
 
+Index
+======
+
+- [Education](#education)
+- [Experience](#experience)
+- [Skills](#skills)
+- [Awards](#awards)
+- [Interests](#interests)
+
+
 Education
 =======  
 
-- ## RV College of Engineering, Bangalore, India                         *August 2018 - May 2022*
-### Bachelor of Engineering, Electronics & Communications Engineering
+- ## RV College of Engineering, Bangalore, India                         
+### Bachelor of Engineering, Electronics & Communications Engineering [August 2018 - May 2022]
   - **Relevant coursework:** Engineering Mathematics: Linear Algebra, Statistics & Probability Theory; Engineering Physics: Quantum Systems; Engineering Materials; Analog IC Design; Advanced Digital System Design and VLSI; DSP and Machine Learning; Communication Systems
   - **Activities and Societies:** Wipro-IISc Autonomous Vehicle Research Group, Junior Researcher at CIRQuIT Quantum Research, Astra Robotics, Entrepreneurship Cell, Frequency Club
 
 
-### Massachusetts Institute of Technology                               *September 2020 - May 2021*
-#### MicroMasters in Data Science & Statistics
+- ## Massachusetts Institute of Technology                               
+### MicroMasters in Data Science & Statistics                        [September 2020 - May 2021]
 
-### TU Delft                                                            *August 2020 - December 2020*
-#### Professional Certificate, Quantum Computing & Quantum Internet
+- ## TU Delft                                                            
+### Professional Certificate, Quantum Computing & Quantum Internet   [August 2020 - December 2020]
+  - The Hardware of a Quantum Computer
+  - Architecture, Algorithms and Protocols of a Quantum Computer and Quantum Internet
   
 
 Experience

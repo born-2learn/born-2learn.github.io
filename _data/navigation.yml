@@ -4,9 +4,6 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Experience/Research"
-    url: /education#Experience/
-
   - title: "Publications" #ready
     url: /publications/
 
@@ -16,12 +13,7 @@ main:
   - title: "Blog Posts" #ready
     url: /year-archive/
 
-  - title: "Skills"
-    url: /education#Awards/
-
   - title: "Conferences"
     url: /conferences/
-    
-  - title: "Awards"
-    url: /education#Awards/
+
 
