@@ -19,7 +19,7 @@ Index
 - [Interests](#interests)
 
 
-<span style="color:green">Education</span>
+Education
 =======  
 
 - ## RV College of Engineering, Bangalore, India                         
@@ -40,41 +40,63 @@ Index
 Experience
 ========
 
-### Quantum & AI Research Intern                                        *October 2020 - December 2020*
-#### IBM
-Working with the IBM Quantum Research Team on Error Mitigation techniques with Machine Learning that can be integrated into the Qiskit Transpiler. Also exploring variations of QVE and QAOA.
+- ## Quantum & AI Research Intern                                        
+### IBM                                                               [October 2020 - December 2020]
+  - Working with the IBM Quantum Research Team on Error Mitigation techniques with Machine Learning that can be integrated into the Qiskit Transpiler. 
+  - Also exploring variations of QVE and QAOA.
 
 
-### Qiskit Docs Translator                                              *August 2020 - Present*
-#### IBM India
-Official Translator of the IBM Qiskit Docs for the Hindi Language(National Language of India).
+- ## Qiskit Docs Translator                                              
+### IBM India                                                         [August 2020 - Present]
+  - Official Translator of the IBM Qiskit Docs for the Hindi Language(National Language of India).
 
 
-JUNIOR RESEARCHER
-CIRQUIT QUANTUM RESEARCH
-Worked on Quantum Machine Learning Research Projects that include QSVMs and Hessian based Loss Landscape analysis to avoid Barren Plateaus.
+- ## Junior Researcher
+### CIRQuIT Quantum Research, RVCE                                    [August 2020 - September 2020]
+  - Worked on Quantum Machine Learning Research Projects that include QSVMs and Hessian based Loss Landscape analysis to avoid Barren Plateaus.
 
-August 2020 - September 2020
-FOUNDER & COMMUNITY MANAGER
-QPOWER QUANTUM COMMUNITY
-QPower is a community of like minded Quantum enthusiasts that was formed under the Microsoft Student Partner program to promote open source culture and research among students. As a Community Manager, I am responsible for organizing and managing QPower's various open source programs and events. I am also responsible for planning and implementing strategies for new projects and collaborations.
 
-November 2019 - Present
-SDE INTERN
-CITRIOT
-Improved model accuracy of Face Recognition Project's model by 63% by customizing the TensorFlow API. Designed Backend software using Python-Flask and deployed it on an embedded Linux-based device.
+- ## Founder & Community Manager
+### QPower Quantum Community                                          [November 2019 - Present]
+  - QPower is a community of like minded Quantum enthusiasts that was formed under the Microsoft Student Partner program to promote open source culture and research among students. 
+  - As a Community Manager, I am responsible for organizing and managing QPower's various open source programs and events. 
+  - I am also responsible for planning and implementing strategies for new projects and collaborations.
 
+
+- ## SDE Intern
+### CITRIOT                                                            [May 2020 - August 2020]
+  - Improved model accuracy of Face Recognition Project's model by 63% by customizing the TensorFlow API.
+  - Designed Backend software using Python-Flask and deployed it on an embedded Linux-based device.
 
 
   
-# Skills #
-Skills to be added.
+Skills
+======
 
-# Conferences #
-Conf details to be added.
+- QUANTUM COMPUTING
+  - Qiskit
+  - QSharp
+  - QIS, Quantum Machine Learning
+  - Cirq
+- MACHINE LEARNING
+  - Keras & Tensorflow
+  - PyTorch
+  - Scikit-Learn
+- WORKFLOW
+  - Mobile-First, Responsive Design
+  - Cross Browser Testing & Debugging
+  - Cross Functional Teams
+  - Agile Development & Scrum
+
 
 # Awards #
-Awards to be added here.
+- Certificate of Proficiency - Qiskit India Challenge - IBM
+- Intern of the Month - CITRIOT
+- 1st Place - Nokia - White Paper Contest
+- 1st Place - JP Morgan & Chase - Code for Good Hackathon
+- 1st Place - Rotary Youth Leadership Awards - Fastest 4x4 Rubik's Cube(Master Cube) Solver
+- Indian Institute of Science(IISc) - KVPY Fellowship
+- 19 th International Rank - International Computing Olympiad(iCO)
 
 # Interests #
 
@@ -82,24 +104,4 @@ Awards to be added here.
 
 - When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the machine learning world.
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 7 different slack teams
+
