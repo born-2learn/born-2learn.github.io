@@ -19,7 +19,7 @@ Index
 - [Interests](#interests)
 
 
-Education
+<span style="color:green">Education</span>
 =======  
 
 - ## RV College of Engineering, Bangalore, India                         
