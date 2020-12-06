@@ -81,7 +81,7 @@ There are multiple types of Variational Circuits available that can also be cust
 
 An n bit classification string is obtained once we measure the variational quantum circuit using the Measurement operator.  
 
-The n bit string is now assigned values of the classificatoin classes. This is done with the help of a boolean function $f: \{0, 1\}^{n} -> \{0, 1\}$. Common examples of boolean functions are:  
+The n bit string is now assigned values of the classification classes. This is done with the help of a boolean function $f: \{0, 1\}^{n} -> \{0, 1\}$. Common examples of boolean functions are:  
 - **Parity function** : modulus 2 sum of all the digits of the n bit classical string.
 - **Choosing the "k"th digit** : Choose the digit number "k" in the n bit classical string as the output, etc.  
 
@@ -89,7 +89,7 @@ The n bit string is now assigned values of the classificatoin classes. This is d
 ---
 ## 4. Classical optimization loop.  
 
-The parameters of the quantum variational circuit are updated using a classical optimization routine once the measurements are ready. This is the classical loop that trains our parameters until the cost function value decreases.   
+The parameters of the quantum variational circuit are updated using a classical optimization routine once the measurements are ready. This is the classical loop that trains our parameters until the cost function's value decreases.   
  
 
 ![Loss Landscape](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/vqc-part1/loss_landscape.png)  
