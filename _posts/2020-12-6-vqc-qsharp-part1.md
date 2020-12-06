@@ -9,6 +9,7 @@ tags:
   - Quantum Machine Learning
   - Microsoft QSharp
 ---
+VQCs are Hybrid Quantum Classical Machine Learning Architectures meant for Classification tasks using Quantum Computers.  
 
 # Variational Quantum Classifier
 
