@@ -15,7 +15,7 @@ tags:
 
 **Title of the Research Paper** : Error mitigation with Clifford quantum-circuit data  
 **Authors** : Piotr Czarnik, Andrew Arrasmith, Patrick J. Coles, Lukasz Cincio  
-**arXiv** : https://arxiv.org/abs/2005.10189  
+**arXiv** : [https://arxiv.org/abs/2005.10189](https://arxiv.org/abs/2005.10189)   
 
 
 ## Method Implemented
