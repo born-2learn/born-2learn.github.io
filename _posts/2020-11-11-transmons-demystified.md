@@ -8,7 +8,7 @@ tags:
   - Quantum Computing
 ---
 
-![transmons](images/../../images/image-alignment-580x300.jpg)
+![transmons](https://raw.githubusercontent.com/born-2learn/AutoBellCircuit/master/media/architecture.png)
 
 Test LaTeX: $$ \mathcal{U}_{\Phi(\mathbf{x})}=\prod_d U_{\Phi(\mathbf{x})}H^{\otimes n},\ U_{\Phi(\mathbf{x})}=\exp\left(i\sum_{S\subseteq[n]}\phi_S(\mathbf{x})\prod_{k\in S} P_k\right) $$  
 
