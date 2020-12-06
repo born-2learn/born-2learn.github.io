@@ -6,6 +6,7 @@ tags:
   - Quantum Computing
   - Quantum Machine Learning
   - Quantum Algorithms
+  - Research Paper Review
 ---
 
 > **Review written by** : [Syed Farhan](https://www.linkedin.com/in/syedfarhanahmad/) and [Nilesh Goel](https://www.linkedin.com/in/nilesh-goel/)  
@@ -19,7 +20,7 @@ tags:
 
 ## Method Implemented
 
-![Method implemented]()  
+![Method implemented](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/cdr/method-implementation.png)  
 
 1. Generate states with Clifford Gates which are close to the required state and are easily classically simulable.
    
@@ -29,7 +30,7 @@ tags:
 
 ## Generation of Training Data States
 
-![circuit]()  
+![circuit](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/cdr/circuit.png)  
 
 1. Ansatz of Transverse Ising Model is created using QAOA,
 which is decomposed into a variational circuit.
@@ -43,7 +44,7 @@ with the original non-Clifford Gate.
 
 ## Results
 
-![results]()  
+![results](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/cdr/results.png)  
 
 - CDR method seems to have decreased the
 error by an order.
