@@ -9,7 +9,7 @@ tags:
   - Research Paper Review
 ---
 
-> **Review written by** : [Syed Farhan](https://www.linkedin.com/in/syedfarhanahmad/) and [Nilesh Goel](https://www.linkedin.com/in/nilesh-goel/)  
+> **Review written by** : [Nilesh Goel](https://www.linkedin.com/in/nilesh-goel/) and [Syed Farhan](https://www.linkedin.com/in/syedfarhanahmad/).  
 
 # A friendly review of "Error mitigation with Clifford quantum-circuit data"
 
