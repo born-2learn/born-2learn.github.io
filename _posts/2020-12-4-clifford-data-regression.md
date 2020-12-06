@@ -14,7 +14,7 @@ tags:
 # A friendly review of "Error mitigation with Clifford quantum-circuit data"
 
 **Title of the Research Paper** : Error mitigation with Clifford quantum-circuit data
-**Authors** : Piotr Czarnik, Andrew Arrasmith, Patrick J. Coles, Lukasz Cincio
+**Authors** : Piotr Czarnik, Andrew Arrasmith, Patrick J. Coles, Lukasz Cincio  
 **arXiv** : https://arxiv.org/abs/2005.10189  
 
 
@@ -57,6 +57,6 @@ training circuits more similar to original ones.
 qubits(q) in circuit.
 
 ---
-> Thank you for your time. If you have any questions or would like to report any errors in this post, feel free to reach out to the review authors.
+> Thank you for your time. If you have any questions or would like to report any errors in this post, feel free to reach out to the review authors.  
 > Have a great day!
 
