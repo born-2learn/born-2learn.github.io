@@ -8,8 +8,5 @@ tags:
   - Quantum Computing
 ---
 
-![transmons](https://raw.githubusercontent.com/born-2learn/AutoBellCircuit/master/media/architecture.png)
-
-Test LaTeX: $$ \mathcal{U}_{\Phi(\mathbf{x})}=\prod_d U_{\Phi(\mathbf{x})}H^{\otimes n},\ U_{\Phi(\mathbf{x})}=\exp\left(i\sum_{S\subseteq[n]}\phi_S(\mathbf{x})\prod_{k\in S} P_k\right) $$  
 
 This blog post is currently in progress and will be live by 10th of December, 2020. Thanks for coming by.
