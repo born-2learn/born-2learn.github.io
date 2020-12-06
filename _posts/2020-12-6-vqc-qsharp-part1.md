@@ -12,7 +12,7 @@ tags:
 
 # Variational Quantum Classifier
 
-> This blog post is written as a part of the Q# Advent Calendar – December 2020.  
+> This blog post is written as part of the Q# Advent Calendar – December 2020.  
 > I’d like to thank **Mariia Mykhailova** and the **Microsoft Quantum** Team for giving me this opportunity.
 
 
@@ -26,22 +26,22 @@ There are multiple algorithms for classification in Classical machine learning t
 
 ![classical machine learning workflow]()
 
-*Classical Machine Learning workflow* [[1]](#references).
+*[Classical Machine Learning workflow]* [[1]](#references).
 
 
 There are multiple methods for classifying a dataset using a quantum computer, but we are going to explore an algorithm known as **VQC (Variational Quantum Classifier)**.
 
 Like classical machine learning the VQC algorithm has a training stage (where datapoints with labels are provided and learning takes place) and a testing stage (where new datapoints without labels are provided which are then classified). Each of these stages in VQC are a four-step process:
 
-1. Loading Data onto the Quantum Computer (Apply Feature Map)
-2. Building the Circuit that Classifies (Variational Circuit)
-3. Measurement and Assigning a Binary Label
+1. Feature Map - Loading the Data into the Quantum System
+2. Variational Circuit - The quantum classification circuit
+3. Measurement and Assigning a Binary Label 
 4. Classical Optimization Loop
 
-![HQC workflow]()
-*HQC Machine Learning Algorithm Workflow*.
+![HQC workflow]()  
+*[HQC Machine Learning Algorithm Workflow]*.
 
-## Loading Data into a Quantum Computer  
+## 1. Feature Map - Loading the Data into the Quantum System  
 
 The idea of quantum feature maps comes from the *theory of kernels* in classical machine learning where a dataset is mapped non-linearly onto a higher dimensional space where a hyperplane can be found that classifies it.  
 
@@ -58,7 +58,7 @@ There are different types of feature maps available – ZfeatureMap, ZZFeatureMa
 [image map – zz]
 *ZZFeatureMap*
 
-## Building the Circuit that Classifies
+## 2. Variational Circuit - The quantum classification circuit
 
 In this step we append a short depth Variational Circuit to the previously constructed feature map. The parameters of this variational circuit are then trained in the classical optimization loop until it classifies the datapoints correctly. This is the learning stage of the algorithm and accuracy of the model can vary based on the variational circuit one chooses. It is essential to choose a variational circuit of shorter depth (making it especially viable for implementations on real hardware), lesser number of parameters to train (faster training process) while making sure its Expressability and Entangling capacity are enough to classify our dataset to the degree we want. Building variational circuits with such conflicting properties, similar to the study on quantum feature maps, is an active field of research.
 
@@ -66,14 +66,14 @@ There are multiple types of Variational Circuits available that can also be cust
 
 [var ckt]
 
-## Measurement and Assigning a Binary Label
+## 3. Measurement and Assigning a Binary Label
 
 After creating and measuring the circuit we are left with an n bit classical string from which we must derive a binary output which will be our classification result. This is done with the help of a boolean function f:{0,1}n−>{0,1}f:{0,1}n−>{0,1}. The way this boolean function is written out may not be as significant as the concepts earlier as modifying the boolean function will change the values of the parameters learned to accommodate for the change. Common examples of boolean functions are:  
 - **Parity function** : modulus 2 sum of all the digits of the n bit classical string.
 - **Choosing the "k"th digit** : Choose the digit number "k" in the n bit classical string as the output, etc.
 This functionality is already inbuilt in the VQC method in Qiskit Aqua and you won't have to make any changes to it.
 
-## Classical optimization loop.  
+## 4. Classical optimization loop.  
 
 Once we get our predictions a classical optimization routine changes the values of our variational circuit and repeats the whole process again. This is the classical loop that trains our parameters until the cost function value decreases. The details of the working have been ommitted as they are immutable and are not relevant going forward. However, you can look at the code and the optimization step to understand exactly how this step takes place.
 
