@@ -110,5 +110,5 @@ You have just completed a short tutorial on how to build your own Hybrid Quantum
 ## References
 
 [1] :   https://www.researchgate.net/publication/338063278_Separation_of_Multi-mode_Surface_Waves_by_Supervised_Machine_Learning_Methods.  
-[2] :  Vojtech Havlicek, Antonio D. Córcoles, Kristan Temme, Aram W. Harrow, Abhinav Kandala, Jerry M. Chow, Jay M. Gambetta, "Supervised learning with quantum enhanced feature spaces", https://arxiv.org/abs/1804.11326.
+[2] :  Vojtech Havlicek, Antonio D. Córcoles, Kristan Temme, Aram W. Harrow, Abhinav Kandala, Jerry M. Chow, Jay M. Gambetta, "Supervised learning with quantum enhanced feature spaces", [https://arxiv.org/abs/1804.11326](https://arxiv.org/abs/1804.11326).
 
