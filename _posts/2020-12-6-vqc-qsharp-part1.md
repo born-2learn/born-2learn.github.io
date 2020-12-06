@@ -49,7 +49,7 @@ Like classical machine learning the VQC algorithm has a training stage (where da
 
 The idea of quantum feature maps comes from the *theory of kernels* in classical machine learning where a dataset is mapped non-linearly onto a higher dimensional space where a hyperplane can be found that classifies it.  
 
-A quantum feature map $\phi(\vec{x})$ is a map from the classical feature vector $\vec{x}$ to the quantum state $I\Phi(\vec{x})\rangle\langle\Phi(\vec{x})I$ , a vector in Hilbert space. By applying the unitary operation on the initial state,  we have now blown up the dimension of our feature space and the task of our classifier is to find a separating hyperlane in this new space.  
+A quantum feature map $\phi(\vec{x})$ is a map from the classical feature vector $\vec{x}$ to the quantum state $\|\Phi(\vec{x})\rangle\langle\Phi(\vec{x})\|$ , a vector in Hilbert space. By applying the unitary operation on the initial state,  we have now blown up the dimension of our feature space and the task of our classifier is to find a separating hyperlane in this new space.  
 
 The quantum advantage comes into picture when we use non-Classically simulable quantum feature maps over feature maps that can be simulated on classical computers. The quantum feature map of depth d is implemented by the unitary operator : 
 
