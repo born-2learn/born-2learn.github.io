@@ -11,7 +11,7 @@ main:
     url: /talks/      
 
   - title: "Blog Posts" #ready
-    url: /year-archive/
+    url: /blog-posts/
 
   - title: "Conferences"
     url: /conferences/
