@@ -115,7 +115,8 @@ Commonly used optimization methods are as follows:
 
 ## Quantum Machine Learning with Microsoft Q#
 
-You can try out a Quantum Classifier on your local machine by following this [Quantum Kata](https://github.com/microsoft/QuantumKatas/tree/main/tutorials/QuantumClassification). The [Quantum Katas](https://github.com/microsoft/QuantumKatas) are a collection of self-paced tutorials and programming exercises to help you learn quantum computing and Q# programming.  
+- You can try out a Quantum Classifier on your local machine by following this [Quantum Kata](https://github.com/microsoft/QuantumKatas/tree/main/tutorials/QuantumClassification). The [Quantum Katas](https://github.com/microsoft/QuantumKatas) are a collection of self-paced tutorials and programming exercises to help you learn quantum computing and Q# programming.  
+- You can also try out an awesome example- [HalfMoons](https://github.com/microsoft/Quantum/tree/master/samples/machine-learning/half-moons), from the Microsoft Quantum team, that trains a sequential model using the quantum machine learning library on the half-moons dataset.  
 
 ---
 ✨✨✨ **Congratulations!**  
