@@ -112,7 +112,7 @@ Commonly used optimization methods are as follows:
 - As a programming language, Q# draws familiar elements from Python, C#, and F# and supports a basic procedural model for writing programs with loops, if/then statements, and common data types. It also introduces new quantum-specific data structures and operations.
 - You can get started with Q# at [Microsoft Docs - QDK and Q#](https://docs.microsoft.com/en-us/quantum/quickstarts/get-started)  
 
-## Quantum Machine Learning with Microsoft   
+## Quantum Machine Learning with Microsoft Q#
 
 You can try out a Quantum Classifier on your local machine by following this [Quantum Kata](https://github.com/microsoft/QuantumKatas/tree/main/tutorials/QuantumClassification). The [Quantum Katas](https://github.com/microsoft/QuantumKatas) are a collection of self-paced tutorials and programming exercises to help you learn quantum computing and Q# programming.  
 
