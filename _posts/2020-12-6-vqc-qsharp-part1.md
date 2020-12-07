@@ -100,11 +100,11 @@ Commonly used optimization methods are as follows:
 - **COBYLA** - Constrained Optimization By Linear Approximation optimizer.
 - **SPSA** - Simultaneous Perturbation Stochastic Approximation (SPSA) optimizer.
 - **SLSQP** - Sequential Least SQuares Programming optimizer, etc.
-
+---
 
 ## Microsoft Q# and QDK
 
-![Azure Quantum]()  
+![Azure Quantum](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/vqc-part1/azure-quantum.jpg)  
 *Microsoft [Azure Quantum](https://azure.microsoft.com/en-in/services/quantum/)*
 
 - **Q#** is Microsoft’s open-source programming language for developing and running quantum algorithms. It’s part of the **Quantum Development Kit (QDK)**, which includes Q# libraries, quantum simulators, extensions for other programming environments, and API documentation. In addition to the Standard Q# library, the QDK includes Chemistry, Machine Learning, and Numeric libraries.
