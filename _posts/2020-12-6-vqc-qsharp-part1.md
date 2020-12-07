@@ -99,7 +99,8 @@ The parameters of the quantum variational circuit are updated using a classical 
 Commonly used optimization methods are as follows:  
 - **COBYLA** - Constrained Optimization By Linear Approximation optimizer.
 - **SPSA** - Simultaneous Perturbation Stochastic Approximation (SPSA) optimizer.
-- **SLSQP** - Sequential Least SQuares Programming optimizer, etc.
+- **SLSQP** - Sequential Least SQuares Programming optimizer, etc.  
+  
 ---
 
 ## Microsoft Q# and QDK
