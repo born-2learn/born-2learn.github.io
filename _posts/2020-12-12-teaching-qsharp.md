@@ -12,7 +12,7 @@ tags:
 
 This summer, I had the opportunity to organize an international workshop on Quantum Computing with Microsoft Q# as a part of the [QPower Quantum Community](https://qpower-research.tech/). QPower is a Quantum Computing organization that was formed by me under the [Microsoft Student Ambassador Program](https://studentambassadors.microsoft.com/) with the guidance of Pablo Veramendi.  
 
-![Workshop Poster updates]()  
+![Workshop Poster updated](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/teaching-qsharp/workshop_poster.png)  
 
 ## Goal of the Workshop
 
