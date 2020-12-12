@@ -36,13 +36,13 @@ The final workshop on Quantum Computing had the following sessions:
 
 The Quantum Katas came in very handy while explaining code snippets about several topics like [Basic Gates](https://github.com/microsoft/QuantumKatas/tree/main/BasicGates), [Linear Algebra](https://github.com/microsoft/QuantumKatas/tree/main/tutorials/LinearAlgebra) and even complete algorithms like the [Grover's Algorithm](https://github.com/microsoft/QuantumKatas/tree/main/GroversAlgorithm).  
 
-![Binder screenshot]()  
+![Binder screenshot](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/teaching-qsharp/binder.png)  
 
 ## Quantum Computing Quiz
 
 To ensure that the attendees had understood the content of the entire workshop, we organized a [Kahoot](https://kahoot.it/) quiz at the end of the session. This quiz consisted of 10 questions on the concepts of Quantum Computing, language constructs of Microsoft Q# and a few Quantum Algorithms.  
 
-![Kahoot quiz]()  
+![Kahoot quiz](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/teaching-qsharp/kahoot.png)  
 
 ## Outcome
 
