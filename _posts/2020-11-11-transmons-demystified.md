@@ -9,4 +9,4 @@ tags:
 ---
 
 
-This blog post is currently in progress and will be live by 10th of December, 2020. Thanks for coming by.
+This blog post is currently in progress and will be live by 24th of December, 2020. Thanks for coming by.
