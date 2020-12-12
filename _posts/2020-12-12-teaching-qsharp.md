@@ -1,5 +1,5 @@
 ---
-title: 'Teaching Microsoft Q# at Mini-Workshops'
+title: 'Teaching Quantum Computing with Microsoft Q# at Mini-Workshops'
 date: 2020-12-12
 permalink: /posts/2020/11/teach-qsharp-at-workshops/
 tags:
