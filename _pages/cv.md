@@ -43,12 +43,11 @@ Experience
 - ## Quantum & AI Research Intern                                        
 ### IBM                                                               [October 2020 - December 2020]
   - Working with the IBM Quantum Research Team on Error Mitigation techniques with Machine Learning that can be integrated into the Qiskit Transpiler. 
-  - Also exploring variations of QVE and QAOA.
 
 
 - ## Qiskit Docs Translator                                              
 ### IBM India                                                         [August 2020 - Present]
-  - Official Translator of the IBM Qiskit Docs for the Hindi Language(National Language of India).
+  - Official Translator of the IBM Qiskit Docs for the Hindi Language(Most spoken language in India).
 
 
 - ## Junior Researcher
