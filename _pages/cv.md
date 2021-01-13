@@ -40,7 +40,7 @@ Education
 Experience
 ========
 
-- ## Quantum & AI Research Intern                                        
+- ## Quantum & AI Research Intern[GRM - Global Remote Mentorship Program]                                        
 ### IBM                                                               [October 2020 - December 2020]
   - Working with the IBM Quantum Research Team on Error Mitigation techniques with Machine Learning that can be integrated into the Qiskit Transpiler. 
 

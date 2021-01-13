@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-- I am a Quantum & AI Research Intern at IBM India Research Labs.
+- I am a Quantum & AI Research Intern(as part of the GRM - Global Remote Mentorship program) at IBM India Research Labs.
 - I am also a Junior year Undergrad in Electronics & Communications Engineering at RVCE, Bangalore and an MITx MicroMasters student in Data Science & Statistics.
 - My areas of research include:
   - Quantum error mitigation techniques using Machine Learning that can be incorporated into the Qiskit transpiler.
