@@ -17,7 +17,7 @@ redirect_from:
 
 # Highlights
 
-- QOSF Mentee, working with [Amira Abbas](https://www.linkedin.com/in/amira-abbas/) to analyse effects of entanglement and entropy on model training in QML.
+- QOSF Mentee, working with Amira Abbas to analyse effects of entanglement and entropy on model training in QML.
 - Microsoft Gold Student Ambassador:
   - Founder of the PM[Program Management] Initiative.
   - Founder & Community Manager of QPower Quantum Research Community.
