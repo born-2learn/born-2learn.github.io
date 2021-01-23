@@ -7,8 +7,9 @@ tags:
   - Quantum Computing
 ---
 
-> This blog post is written as part of the QOSF(Quanutm Open Source Foundation) Mentorship Program.
-> **Student:** Syed Farhan Ahmad
+> This blog post is written as part of the QOSF(Quanutm Open Source Foundation) Mentorship Program.  
+>   
+> **Student:** Syed Farhan Ahmad  
 > **Mentor:** Amira Abbas
 
 ## Aim of the Project
@@ -64,5 +65,5 @@ details
 ## References
 details
 
-## Acknowledgement
+## Acknowledgements
 details
