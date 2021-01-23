@@ -32,7 +32,7 @@ Neumann entropy is defined as follows:
 
 $S(\rho)=-\mathrm{Tr}(\rho \log\rho)$
   
-This entropy is a quantum generalization of the classical Shannon entropy. If $\{p_i\}_i$  are the eigenvalues of a density operator , then the von Neumann entropy equals the Shannon entropy of a random variable X($\rho$) with same probability distribution :  
+This entropy is a quantum generalization of the classical Shannon entropy. If $$\{p_i\}_i$$  are the eigenvalues of a density operator , then the von Neumann entropy equals the Shannon entropy of a random variable X($$\rho$$) with same probability distribution :  
 
 ![von neumann equation](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vn_eq.png)
 
@@ -83,16 +83,16 @@ The Quantum Circuit automatically learns the parameters to generate a Bell State
 
 ### Variational Quantum Classifier
 
-- Since we are using a Sigmoid estimation cost function, it is normal to expect a step-like graph
-![vqc cost vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_cost_vs_epoch.png)
-- von-Neumann entropy follows a pattern as the model trains and the peaks gradually reduce. Further analysis is required to understand the correlation.
-![vqc vn vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_epoch.png)
-- Meyer Wallach decreases exponentially as the model trains for both datasets.
-![vqc mw vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_epoch.png)
-- This follws the same trend, i.e, von Neumann entropy's peaks slighly decrese as the cost value decreases.
-![vqc vn vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_loss.png)
-- We see that Meyer Wallach measure decreses as the cost function decreases.
-![vqc mw vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_loss.png)
+- Since we are using a Sigmoid estimation cost function, it is normal to expect a step-like graph.  
+![vqc cost vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_cost_vs_epoch.png)  
+- von-Neumann entropy follows a pattern as the model trains and the peaks gradually reduce. Further analysis is required to understand the correlation.  
+![vqc vn vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_epoch.png)  
+- Meyer Wallach decreases exponentially as the model trains for both datasets.  
+![vqc mw vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_epoch.png)  
+- This follws the same trend, i.e, von Neumann entropy's peaks slighly decrese as the cost value decreases.  
+![vqc vn vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_loss.png)  
+- We see that Meyer Wallach measure decreses as the cost function decreases.  
+![vqc mw vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_loss.png)  
 
 
 ## Conclusion
