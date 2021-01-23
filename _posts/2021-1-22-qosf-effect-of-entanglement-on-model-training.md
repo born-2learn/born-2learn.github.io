@@ -32,7 +32,7 @@ Neumann entropy is defined as follows:
 
 $S(\rho)=-\mathrm{Tr}(\rho \log\rho)$
   
-This entropy is a quantum generalization of the classical Shannon entropy. If $\{p_i\}_i$  are the eigenvalues of a density operator , then the von Neumann entropy equals the Shannon entropy of a random variable $X_\rho$ with same probability distribution :  
+This entropy is a quantum generalization of the classical Shannon entropy. If $\{p_i\}_i$  are the eigenvalues of a density operator , then the von Neumann entropy equals the Shannon entropy of a random variable X($\rho$) with same probability distribution :  
 
 ![von neumann equation](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vn_eq.png)
 
