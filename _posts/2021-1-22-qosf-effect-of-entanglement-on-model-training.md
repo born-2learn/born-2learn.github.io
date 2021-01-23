@@ -9,8 +9,8 @@ tags:
 
 > This blog post is written as part of the QOSF(Quanutm Open Source Foundation) Mentorship Program.  
 >   
-> **Student:** Syed Farhan Ahmad  
-> **Mentor:** Amira Abbas
+> **Student:** [Syed Farhan Ahmad](https://www.linkedin.com/in/syedfarhanahmad/)  
+> **Mentor:** [Amira Abbas](https://www.linkedin.com/in/amira-abbas/) 
 
 ## Project Description
 
@@ -34,12 +34,12 @@ $S(\rho)=-\mathrm{Tr}(\rho \log\rho)$
   
 This entropy is a quantum generalization of the classical Shannon entropy. If $\{p_i\}_i$ are the eigenvalues of a density operator , then the von Neumann entropy equals the Shannon entropy of a random variable $X_\rho$ with probability distribution $\{p_i\}_i$ :  
 
-![von neumann equation](images/qosf/vn_eq.png)
+![von neumann equation](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vn_eq.png)
 
 ### **Meyer Wallach Entropy measure**
 It is a single scalar measure of pure-state entanglement. The Meyer–Wallach (MW) measure written in the Brennen form is:
 
-![meyer wallach](images/qosf/meyerwallach_equation.png)  
+![meyer wallach](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/meyerwallach_equation.png)  
 where $\rho_k$  is the one-qubit reduced density matrix of the kth qubit after tracing out the rest.
 
 **Implementation**: Meyer Wallach entanglement measure is implemented in `libraries/meyer_wallach_measure.py`.
@@ -49,16 +49,22 @@ where $\rho_k$  is the one-qubit reduced density matrix of the kth qubit after t
 The Quantum Circuit automatically learns the parameters to generate a Bell State. We have used a very simple parameterized circuit and a manually coded SGD optimizer with MSE Cost function to analyse the effect of entanglement as the model trains and optimizes its parameter to come back to the bell state.   
 
 
-![bell state](images/qosf/bell_state.png)  
+![bell state](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_state.png)
 
 
 ## Variational Quantum Classifier Setup
 
 ### Specifications
+
+![vqc circuit image](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_arch.png)
 - **Quantum Embedding:** ZZFeatureMap
 - **Quantum Variational Circuit:** RealAmplitudes
 - **Optimizer:** ADAM
 - **Cost Function:** sigmoid estimation cost function
+### Quantum Circuit
+
+![vqc circuit](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_circuit.png)
+
   
 ### Datsets used
 - Ad Hoc dataset from `qiskit.ml.datasets`.
@@ -68,25 +74,25 @@ The Quantum Circuit automatically learns the parameters to generate a Bell State
 
 ### Toy Model(Parameterized bell state with custom optimizer)  
 - This is indeed a minimization problem using MSE Cost function, hence we see a Quandratic graph.
-![bell loss](images/qosf/bell_costvsepoch.png)
+![bell loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_costvsepoch.png)
 - The von-Neumann entropy increases as the circuit trains, reaches and peak and then decreases again.
-![bell vn vs epoch](images/qosf/bell_vn_vs_epoch.png)
+![bell vn vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_vn_vs_epoch.png)
 - Observing from left to right, we see that the von-Neumann entropy increases as the Loss function decreses, which is expected from von-Neumann entropy's equation since we are approaching a pure state from a mixed state.
-![bell vn vs loss](images/qosf/bell_vn_vs_loss.png)  
+![bell vn vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_vn_vs_loss.png)  
 > *Therefore, we can conclude that the entropy measures that we have coded are working fine and we are now ready to test it on our actual VQC experiment.*
 
 ### Variational Quantum Classifier
 
 - Since we are using a Sigmoid estimation cost function, it is normal to expect a step-like graph
-![vqc cost vs epoch](images/qosf/vqc_cost_vs_epoch.png)
+![vqc cost vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_cost_vs_epoch.png)
 - von-Neumann entropy follows a pattern as the model trains and the peaks gradually reduce. Further analysis is required to understand the correlation.
-![vqc vn vs epoch](images/qosf/vqc_vn_vs_epoch.png)
+![vqc vn vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_epoch.png)
 - Meyer Wallach decreases exponentially as the model trains for both datasets.
-![vqc mw vs epoch](images/qosf/vqc_mw_vs_epoch.png)
+![vqc mw vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_epoch.png)
 - This follws the same trend, i.e, von Neumann entropy's peaks slighly decrese as the cost value decreases.
-![vqc vn vs loss](images/qosf/vqc_vn_vs_loss.png)
+![vqc vn vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_loss.png)
 - We see that Meyer Wallach measure decreses as the cost function decreases.
-![vqc mw vs loss](images/qosf/vqc_mw_vs_loss.png)
+![vqc mw vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_loss.png)
 
 
 ## Conclusion

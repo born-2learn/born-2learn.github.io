@@ -1,6 +1,6 @@
 ---
 title: 'Transmons Demystified'
-date: 2020-12-04
+date: 2020-11-04
 permalink: /posts/2020/11/transmons-demystified/
 tags:
   - Quantum Hardware
@@ -9,4 +9,4 @@ tags:
 ---
 
 
-This blog post is currently in progress and will be live by 24th of December, 2020. Thanks for coming by.
+This blog post is currently in progress and will be live soon. Thanks for coming by.
