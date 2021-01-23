@@ -1,7 +1,7 @@
 ---
 title: 'Effect of Entanglement on Model Training'
 date: 2021-01-21
-permalink: /posts/2020/11/effect-of-entanglement-on-model-training/
+permalink: /posts/2021/01/effect-of-entanglement-on-model-training/
 tags:
   - Quantum Machine Learning
   - Quantum Computing
@@ -114,7 +114,7 @@ Congrats👏! You have finally completed the blog. Stay tuned for more updates o
 
 ## Acknowledgements
 
-I would like to thank my mentor **Amira Abbas** for her constant support and guidance without whom this project wouldn't have taken shape. I would also like to thank the **QOSF** team for giving me this fantastic opportunity of being a part of an awesome mentorship program.  
+I would like to thank my mentor **Amira Abbas** for her constant support and guidance without who this project wouldn't have taken shape. I would also like to thank the **QOSF** team for giving me this fantastic opportunity of being a part of an awesome mentorship program.  
 
 > If you’re interested in following me on my journey, connect with me on [Linkedin](https://www.linkedin.com/in/syedfarhanahmad/) or follow me on [Twitter](https://twitter.com/syedfarhanrvce).   
 > For any queries, feel free to contact me on Linkedin, on twitter or by email.
