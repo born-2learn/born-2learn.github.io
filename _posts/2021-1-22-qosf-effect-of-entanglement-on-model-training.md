@@ -32,7 +32,7 @@ Neumann entropy is defined as follows:
 
 $S(\rho)=-\mathrm{Tr}(\rho \log\rho)$
   
-This entropy is a quantum generalization of the classical Shannon entropy. If $\{p_i\}_i$ are the eigenvalues of a density operator , then the von Neumann entropy equals the Shannon entropy of a random variable $X_\rho$ with probability distribution $\{p_i\}_i$ :  
+This entropy is a quantum generalization of the classical Shannon entropy. If $\{p_i\}_i$  are the eigenvalues of a density operator , then the von Neumann entropy equals the Shannon entropy of a random variable $X_\rho$ with same probability distribution :  
 
 ![von neumann equation](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vn_eq.png)
 
@@ -73,13 +73,13 @@ The Quantum Circuit automatically learns the parameters to generate a Bell State
 ## Results & Observations
 
 ### Toy Model(Parameterized bell state with custom optimizer)  
-- This is indeed a minimization problem using MSE Cost function, hence we see a Quandratic graph.
+- This is indeed a minimization problem using MSE Cost function, hence we see a Quadratic graph.  
 ![bell loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_costvsepoch.png)
-- The von-Neumann entropy increases as the circuit trains, reaches and peak and then decreases again.
-![bell vn vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_vn_vs_epoch.png)
-- Observing from left to right, we see that the von-Neumann entropy increases as the Loss function decreses, which is expected from von-Neumann entropy's equation since we are approaching a pure state from a mixed state.
-![bell vn vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_vn_vs_loss.png)  
-> *Therefore, we can conclude that the entropy measures that we have coded are working fine and we are now ready to test it on our actual VQC experiment.*
+- The von-Neumann entropy increases as the circuit trains, reaches and peak and then decreases again.  
+![bell vn vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_vn_vs_epoch.png)  
+- Observing from left to right, we see that the von-Neumann entropy increases as the Loss function decreses, which is expected from von-Neumann entropy's equation since we are approaching a pure state from a mixed state.  
+![bell vn vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_vn_vs_loss.png)   
+> *Therefore, we can conclude that the entropy measures that we have coded are working fine and we are now ready to test it on our actual VQC experiment.*  
 
 ### Variational Quantum Classifier
 
