@@ -1,7 +1,7 @@
 ---
 title: 'Effect of Entanglement on Model Training'
 date: 2021-01-21
-permalink: /posts/2020/11/teach-qsharp-at-workshops/
+permalink: /posts/2020/11/effect-of-entanglement-on-model-training/
 tags:
   - Quantum Machine Learning
   - Quantum Computing
