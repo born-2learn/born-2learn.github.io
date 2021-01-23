@@ -14,7 +14,7 @@ tags:
 
 ## Project Description
 
-Classical neural networks encode higher dimensional vectors(inputs) to lower dimensional vectors(outputs), but the reverse is not possible. Recent research has shown that scrambling of information form a small subsystem to a larger one is feasible. In our QOSF project, we analyse the effect of entanglement as a variational circuit trains and we also study the role of various entropies to characterize entanglement.
+Classical neural networks encode higher dimensional vectors(inputs) to lower dimensional vectors(outputs), but the reverse is not possible. Recent research has shown that scrambling of information from a small subsystem to a larger one is feasible. In our QOSF project, we analyse the effect of entanglement as a variational circuit trains and we also study the role of various entropies to characterize entanglement.
 
 
 ## Entropy to quantify entanglement
