@@ -7,8 +7,6 @@ tags:
   - Quantum Computing
 ---
 
-# Effect of Entanglement on Model Traininig
-
 > This blog post is written as part of the QOSF(Quanutm Open Source Foundation) Mentorship Program.
 > **Student:** Syed Farhan Ahmad
 > **Mentor:** Amira Abbas
