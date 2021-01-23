@@ -14,12 +14,12 @@ tags:
 
 ## Project Description
 
-Classical neural networks encode higher dimensional vectors(inputs) to lower dimensional vectors(outputs), but the reverse is not possible. Recent researches have shown that scrambling of information form a small subsystem to a larger one is feasible. In our QOSF project, we analyse the effect of entanglement as a variational circuit trains and also study the role of various entropies to characterize entanglement.
+Classical neural networks encode higher dimensional vectors(inputs) to lower dimensional vectors(outputs), but the reverse is not possible. Recent research has shown that scrambling of information form a small subsystem to a larger one is feasible. In our QOSF project, we analyse the effect of entanglement as a variational circuit trains and we also study the role of various entropies to characterize entanglement.
 
 
 ## Entropy to quantify entanglement
 
-Researches have shown that entropy(vonNeumann entropy) can be used to quantify entanglement in a quantum circuit. We took this to another level by studying various entropies and choosing the most relevant ones that impact entanglement in a circuit:  
+Research has shown that entropy(von-Neumann entropy) can be used to quantify entanglement in a quantum circuit. We took this to another level by studying various entropies and choosing the most relevant ones that impact entanglement in a circuit:  
 - von-Neumann entropy
 - Meyer-Wallach entropy
 
@@ -28,7 +28,7 @@ Researches have shown that entropy(vonNeumann entropy) can be used to quantify e
 ### **von-Neumann Entropy measure**  
 
 One of the most studied and frequently used entropy functions is the von Neumann entropy, which is defined as follows: For a density operator $\rho\in\mathcal{D}(\mathcal{H})$
-Neumann entropy is defined as follows:  
+Neumann entropy is:  
 
 $S(\rho)=-\mathrm{Tr}(\rho \log\rho)$
   
@@ -46,7 +46,7 @@ where $\rho_k$  is the one-qubit reduced density matrix of the kth qubit after t
 
 ## Toy Model under study
 
-The Quantum Circuit automatically learns the parameters to generate a Bell State. We have used a very simple parameterized circuit and a manually coded SGD optimizer with MSE Cost function to analyse the effect of entanglement as the model trains and optimizes its parameter to come back to the bell state.   
+The Quantum Circuit automatically learns the parameters to generate a Bell State. We have used a very simple parameterized circuit and a manually an coded SGD optimizer with MSE Cost function to analyse the effect of entanglement as the model trains and optimizes its parameter to come back to the bell state.   
 
 
 ![bell state](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_state.png)
@@ -85,20 +85,24 @@ The Quantum Circuit automatically learns the parameters to generate a Bell State
 
 - Since we are using a Sigmoid estimation cost function, it is normal to expect a step-like graph.  
 ![vqc cost vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_cost_vs_epoch.png)  
-- von-Neumann entropy follows a pattern as the model trains and the peaks gradually reduce. Further analysis is required to understand the correlation.  
+- von-Neumann entropy follows a pattern as the model trains and the peaks values gradually decrease. Further analysis is required to understand the correlation.  
 ![vqc vn vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_epoch.png)  
-- Meyer Wallach decreases exponentially as the model trains for both datasets.  
+- Meyer Wallach decreases exponentially as the model trains for both Ad-Hoc and synthetic datasets.  
 ![vqc mw vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_epoch.png)  
 - This follws the same trend, i.e, von Neumann entropy's peaks slighly decrese as the cost value decreases.  
 ![vqc vn vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_loss.png)  
 - We see that Meyer Wallach measure decreses as the cost function decreases.  
 ![vqc mw vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_loss.png)  
 
+## Code 
+
+The code is open source and can be accessed on GitHub [here](https://github.com/born-2learn/Entanglement_in_QML).
+
 
 ## Conclusion
- - Based on the results obtained, we can safely conclude that Meyer Wallach entanglement measure decreases as the model trains and as the cost function's value decreses. 
- - We can also find a pattern in the von-Neumann entropy measure for every 10 epochs where the entropy value peaks at almost 10% and these peaks decrese as the cost function decreses.
- - We are looking for more insights from the controlled data synthetic data that is being generated. Please check back soon for updates!
+ - Based on the results obtained, we can safely conclude that Meyer Wallach entanglement measure decreases as the model trains and as the cost function's value decreases. 
+ - We can also find a pattern in the von-Neumann entropy measure for every 10 epochs where the entropy value peaks at almost 10% and these peaks decrease as the cost function decreases.
+ - We are looking for more insights from the controlled synthetic data that is being generated. Please check back soon for updates!
 
 Congrats👏! You have finally completed the blog. Stay tuned for more updates on this project as this isn't the end!
 
@@ -113,4 +117,4 @@ Congrats👏! You have finally completed the blog. Stay tuned for more updates o
 I would like to thank my mentor **Amira Abbas** for her constant support and guidance without whom this project wouldn't have taken shape. I would also like to thank the **QOSF** team for giving me this fantastic opportunity of being a part of an awesome mentorship program.  
 
 > If you’re interested in following me on my journey, connect with me on [Linkedin](https://www.linkedin.com/in/syedfarhanahmad/) or follow me on [Twitter](https://twitter.com/syedfarhanrvce).   
-> For any queries, feel free to contact me on Linkedin, twitter or by email.
+> For any queries, feel free to contact me on Linkedin, on twitter or by email.
