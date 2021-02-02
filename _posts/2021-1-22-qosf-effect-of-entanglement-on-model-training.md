@@ -14,12 +14,12 @@ tags:
 
 ## Project Description
 
-Classical neural networks encode higher dimensional vectors(inputs) to lower dimensional vectors(outputs), but the reverse is not possible. Recent research has shown that scrambling of information from a small subsystem to a larger one is feasible. In our QOSF project, we analyse the effect of entanglement as a variational circuit trains and we also study the role of various entropies to characterize entanglement.
+Classical neural networks encode higher dimensional vectors(inputs) to lower dimensional vectors(outputs), but the reverse is not possible. Recent research has shown that scrambling of information from a smaller subsystem to a larger one is feasible. In our QOSF project, we analyse the effect of entanglement as a variational circuit trains and we also study the role of various entropies to characterize entanglement.
 
 
 ## Entropy to quantify entanglement
 
-Research has shown that entropy(von-Neumann entropy) can be used to quantify entanglement in a quantum circuit. We took this to another level by studying various entropies and choosing the most relevant ones that impact entanglement in a circuit:  
+Research has shown that entropy(von-Neumann entropy) can be used to quantify entanglement in a quantum circuit. We extended our work on this by studying various entropies and choosing the most relevant ones that impact entanglement in a circuit:  
 - von-Neumann entropy
 - Meyer-Wallach entropy
 
@@ -27,8 +27,10 @@ Research has shown that entropy(von-Neumann entropy) can be used to quantify ent
 
 ### **von-Neumann Entropy measure**  
 
-One of the most studied and frequently used entropy functions is the von Neumann entropy, which is defined as follows: For a density operator $\rho\in\mathcal{D}(\mathcal{H})$
-Neumann entropy is:  
+One of the most studied and frequently used entropy functions is the von Neumann entropy, which is defined as follows:   
+
+For a density operator $\rho\in\mathcal{D}(\mathcal{H})$
+von-Neumann entropy is:  
 
 $S(\rho)=-\mathrm{Tr}(\rho \log\rho)$
   
@@ -46,7 +48,7 @@ where $\rho_k$  is the one-qubit reduced density matrix of the kth qubit after t
 
 ## Toy Model under study
 
-The Quantum Circuit automatically learns the parameters to generate a Bell State. We have used a very simple parameterized circuit and a manually an coded SGD optimizer with MSE Cost function to analyse the effect of entanglement as the model trains and optimizes its parameter to come back to the bell state.   
+The Quantum Circuit automatically learns the parameters to generate a Bell State. We have used a very simple parameterized circuit and have manually coded an SGD optimizer with MSE Cost function to analyse the effect of entanglement as the model trains and optimizes its parameter to return to the bell state.   
 
 
 ![bell state](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_state.png)
@@ -60,7 +62,7 @@ The Quantum Circuit automatically learns the parameters to generate a Bell State
 - **Quantum Embedding:** ZZFeatureMap
 - **Quantum Variational Circuit:** RealAmplitudes
 - **Optimizer:** ADAM
-- **Cost Function:** sigmoid estimation cost function
+- **Cost Function:** Sigmoid estimation cost function
 ### Quantum Circuit
 
 ![vqc circuit](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_circuit.png)
@@ -73,30 +75,30 @@ The Quantum Circuit automatically learns the parameters to generate a Bell State
 ## Results & Observations
 
 ### Toy Model(Parameterized bell state with custom optimizer)  
-- This is indeed a minimization problem using MSE Cost function, hence we see a Quadratic graph.  
+- Let's begin by plotting the Loss function vs the number of epochs and expect a quadratic graph.  
 ![bell loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_costvsepoch.png)
-- The von-Neumann entropy increases as the circuit trains, reaches and peak and then decreases again.  
+- The von-Neumann entropy increases as the circuit trains, reaches it's peak and then decreases again.  
 ![bell vn vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_vn_vs_epoch.png)  
-- Observing from left to right, we see that the von-Neumann entropy increases as the Loss function decreses, which is expected from von-Neumann entropy's equation since we are approaching a pure state from a mixed state.  
+- Observing from right to left, we see that the von-Neumann entropy increases as the Loss function decreses, which is expected from von-Neumann entropy's equation since we are approaching a pure state from a mixed state.  
 ![bell vn vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/bell_vn_vs_loss.png)   
-> *Therefore, we can conclude that the entropy measures that we have coded are working fine and we are now ready to test it on our actual VQC experiment.*  
+> *Therefore, we can conclude that the von-entropy measure under consideration behaves as expected(after testing on the Toy Model) and we are now ready to test it on our actual VQC experiment.*  
 
 ### Variational Quantum Classifier
 
-- Since we are using a Sigmoid estimation cost function, it is normal to expect a step-like graph.  
+- Let's again begin by plotting the Loss function vs the number of epochs and expect a step-like plot(since the Sigmoid estimation loss was used).   
 ![vqc cost vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_cost_vs_epoch.png)  
-- von-Neumann entropy follows a pattern as the model trains and the peaks values gradually decrease. Further analysis is required to understand the correlation.  
+- von-Neumann entropy follows a pattern as the model trains and the peak values in the plot gradually decrease. Further analysis is required to understand the correlation.  
 ![vqc vn vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_epoch.png)  
-- Meyer Wallach decreases exponentially as the model trains for both Ad-Hoc and synthetic datasets.  
+- Meyer Wallach measure decreases exponentially as the model trains for both Ad-Hoc and synthetic datasets.  
 ![vqc mw vs epoch](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_epoch.png)  
-- This follws the same trend, i.e, von Neumann entropy's peaks slighly decrese as the cost value decreases.  
+- This follws the same trend, i.e, von-Neumann entropy's peaks slighly decrese as the cost values decrease(from right to left).  
 ![vqc vn vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_vn_vs_loss.png)  
-- We see that Meyer Wallach measure decreses as the cost function decreases.  
+- We see that Meyer Wallach measure decreses as the cost function decreases(from right to left).  
 ![vqc mw vs loss](https://raw.githubusercontent.com/born-2learn/born-2learn.github.io/master/_posts/images/qosf/vqc_mw_vs_loss.png)  
 
 ## Code 
 
-The code is open source and can be accessed on GitHub [here](https://github.com/born-2learn/Entanglement_in_QML).
+The code has been open sourced and can be accessed on [GitHub](https://github.com/born-2learn/Entanglement_in_QML).
 
 
 ## Conclusion
@@ -104,7 +106,7 @@ The code is open source and can be accessed on GitHub [here](https://github.com/
  - We can also find a pattern in the von-Neumann entropy measure for every 10 epochs where the entropy value peaks at almost 10% and these peaks decrease as the cost function decreases.
  - We are looking for more insights from the controlled synthetic data that is being generated. Please check back soon for updates!
 
-Congrats👏! You have finally completed the blog. Stay tuned for more updates on this project as this isn't the end!
+Congrats👏! You have finally completed reading the blog. Stay tuned for more updates on this project as this isn't the end!
 
 ## References
 1. Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms, Sukin Sim, Peter D. Johnson, Alan Aspuru-Guzik [[Link]](https://arxiv.org/abs/1905.10876)
