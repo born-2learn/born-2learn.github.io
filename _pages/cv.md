@@ -40,9 +40,13 @@ Education
 Experience
 ========
 
+- ## Research Intern
+### University of California, Los Angeles                             [February 2021 - Present]
+  - Working at the intersection of Quantum computing and AI.
+
 - ## Quantum & AI Research Intern[GRM - Global Remote Mentorship Program]                                        
-### IBM                                                               [October 2020 - December 2020]
-  - Working with the IBM Quantum Research Team on Error Mitigation techniques with Machine Learning that can be integrated into the Qiskit Transpiler. 
+### IBM                                                               [October 2020 - January 2021]
+  - Worked with the IBM Quantum Research Team on Error Mitigation techniques with Machine Learning. 
 
 
 - ## Qiskit Docs Translator                                              
