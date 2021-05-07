@@ -1,5 +1,5 @@
 ---
-title: "QML"
+title: "Quantum Machine Learning with Microsoft Q#"
 collection: talks
 type: "Talk"
 permalink: /talks/26-09-2020-aidevday-konfhub
