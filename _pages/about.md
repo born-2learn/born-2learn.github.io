@@ -19,9 +19,9 @@ redirect_from:
 
 # Highlights
 
-- Interned at IBM India Research Labs. 
-- QOSF Mentee, worked with Amira Abbas to analyse effects of entanglement and entropy on model training in QML.
+- Interned at IBM India Research Lab and worked on Quantum Machine Learning.
+- QOSF Mentee, worked with Amira Abbas to analyse effects of entanglement and entropy on model training in QML. More details [here](https://twitter.com/qosfoundation/status/1372986575060148225?s=20). 
 - Microsoft Gold Student Ambassador:
   - Founder of the PM[Program Management] Initiative.
-  - Founder & Community Manager of QPower Quantum Research Community.
-- KVPY Fellow, Indian Institute of Science(IISc)
+  - Founder & Community Manager of [QPower Quantum Research](https://qpower-research.tech/) Community.
+- KVPY Fellow, Indian Institute of Science([IISc](https://iisc.ac.in/)).
